@@ -12,5 +12,16 @@ public class Hello {
         System.out.print("Enter a number: ");
         int number = sc.nextInt();
         System.out.println("You entered: " + number);
+
+        HelloWorld hw = new HelloWorld();
+        hw.haha();
     }
+}
+
+class HelloWorld {
+
+    public void haha() {
+        System.out.println("Hello World from hello wrold class");
+    }
+
 }
